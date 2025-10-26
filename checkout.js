@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function initCheckoutPage() {
     if (cart.length === 0) {
         // Redirect to home if cart is empty
-        window.location.href = 'home.html';
+        window.location.href = 'index.html';
         return;
     }
     
@@ -70,7 +70,7 @@ function processOrder() {
     
     // Set up continue shopping button
     document.getElementById('continue-shopping').addEventListener('click', function() {
-        window.location.href = 'home.html';
+        window.location.href = 'index.html';
     });
 }
 
